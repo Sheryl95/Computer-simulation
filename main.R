@@ -1,0 +1,7 @@
+source("F:/sem7/computer simulation/codes/Normal RV exp major.R")
+source("F:/sem7/computer simulation/codes/variant idea.R")
+source("F:/sem7/computer simulation/codes/scatter plot.R")
+a = snorm(1000,1)
+iid_test(a)
+sprintf('Mean: %f', mean(a))
+sprintf('Standard deviation: %f', var(a)^0.5)
